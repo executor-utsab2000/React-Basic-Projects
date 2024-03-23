@@ -1,0 +1,48 @@
+.cardContainer{
+    /* background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); */
+    background-position: center !important;
+    background-size: cover !important;
+    min-width: 18rem;
+    margin-top: 20px; 
+    background-color: white;
+    text-align: center;
+    max-width: 22.5rem;
+    width: 30vw;
+    padding-bottom: 20px;
+    height: 29rem;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.formatTxt{
+    width: 17rem;
+    position: absolute;
+    margin-top: 45vh;
+    border-top:  white 3.5px solid;
+    padding-top: 1.2rem;
+    color: white;
+    letter-spacing: 1px;    
+}
+
+.header{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.text{
+    font-size: 0.7rem;
+}
+
+
+/* ---------------------------------------------------- */
+@media (max-width:1200px) {
+    .classCardContainer {
+      max-width: 18rem !important;
+    }
+  
+  }

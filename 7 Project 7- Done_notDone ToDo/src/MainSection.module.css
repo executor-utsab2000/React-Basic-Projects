@@ -1,0 +1,12 @@
+.header{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.desc{
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+hr{
+    border: 2px solid black;
+}

@@ -1,0 +1,63 @@
+
+
+.foodItemContainer{
+    overflow: hidden;
+    border-radius: 10px;
+    /* padding-left: 0.3rem; */
+    width: 22.5rem;
+    /* border: 2px black solid; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.foodItemContainer .FoodHeader{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+} 
+
+
+.foodItemContainer .foodDesc{
+    font-size: 0.6rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.foodItemContainer .priceOrderBtn{
+    margin-top: 20px;
+}
+
+.foodItemContainer .priceOrderBtn div{
+    color: #26A69A;
+    font-size: 0.7rem;
+    font-weight: bold;  
+}
+
+.foodItemContainer .priceOrderBtn .orderBtn{
+    padding: 0.6rem 0.8rem;
+    background-color:#26A69A ;
+    color: white;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.noticeTxt{
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    font-style: italic;
+    font-weight: 700;
+    color: red;
+}
+
+
+.foodItemContainer img{
+    
+    width: 9.7rem;
+    height: 12.5rem !important;
+    
+}

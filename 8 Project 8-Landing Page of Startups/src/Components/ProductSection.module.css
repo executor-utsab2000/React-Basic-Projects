@@ -1,0 +1,66 @@
+.pdtSecionHeader{
+    font-weight: bold;
+    font-size: 2.6rem;
+    color: white;
+}
+
+.txt1{
+    color:#229954;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #82E0AA;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+}
+
+.description{
+    font-weight: 600;
+    width: 30vw;
+    color: white;
+    letter-spacing: 1px;
+    word-break: 2px;
+    font-size: 1.4rem;
+}
+
+.productImage{
+    min-width: 15rem;
+    height: 30rem;
+    width: 40rem !important;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+@media (max-width:1399px) {
+    .productImage{
+        width: 34.5rem !important;
+        
+    }
+}
+
+@media (max-width:1299px) {
+    .productImage{
+        width: 28.7rem !important;
+        
+    }
+}
+
+@media (max-width:992px) {
+    .productImage{
+        
+        width: 40rem !important;
+        
+    }
+}
+
+
+
+
+
+hr{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}

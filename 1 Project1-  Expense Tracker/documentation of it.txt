@@ -1,0 +1,17 @@
+index.js
+app.js
+(in app js we pass the  values of items throufg a variable named expenses in Expenses component.)
+in Expenses component it imports expeneitem component and passes the value through props and it receives date from date element 
+the date element receives value  and calculates it andsend it back
+expensesbg is a compoent created to show nested components by props.children
+
+topics covered
+
+1) creating component
+2) importing and exporting components
+3)passing data in components by props
+4)props in details
+5)multiple components
+6)nesting of components
+7) props .children
+

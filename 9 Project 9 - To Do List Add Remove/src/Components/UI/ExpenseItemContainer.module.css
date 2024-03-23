@@ -1,0 +1,11 @@
+.cardContainer{
+    display: grid;
+    place-items: center;
+    height: 10rem;
+    /* padding: 0.01rem 0  ; */
+    background-color: #2C3E50;
+    margin: 2rem auto;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

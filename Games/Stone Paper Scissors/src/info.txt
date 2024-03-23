@@ -1,0 +1,106 @@
+const [gameState, setGameState] = useState({
+  userScore: 0,
+  computerScore: 0,
+  userImg: 0,
+  computerImg: 0,
+  clickCounter: 0,
+  isDisabled: false,
+  toastShown: false,
+});
+
+
+setGameState((prev) => ({ ...prev, userImg: userSrc + 1 }));
+setGameState((prev) => ({ ...prev, computerImg: Math.floor(Math.random() * 3) + 1 }));
+setGameState((prev) => ({ ...prev, clickCounter: prev.clickCounter + 1 }));
+
+
+
+useEffect(() => {
+  // Your logic using gameState.userImg, gameState.computerImg, etc.
+}, [gameState.clickCounter, gameState.computerImg, gameState.userImg]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+useEffect(() => {
+    if (userImg === computerImg) {
+      setUserScore((prev) => prev + 0);
+      setComputerScore((prev) => prev + 0);
+    } else if (
+      (userImg === 1 && computerImg === 2) ||
+      (userImg === 2 && computerImg === 3) ||
+      (userImg === 3 && computerImg === 1)
+    ) {
+      setUserScore((prev) => prev + 2);
+      setComputerScore((prev) => prev + 0);
+    } else if (
+      (userImg === 2 && computerImg === 1) ||
+      (userImg === 3 && computerImg === 2) ||
+      (userImg === 1 && computerImg === 3)
+    ) {
+      setUserScore((prev) => prev + 0);
+      setComputerScore((prev) => prev + 2);
+    }
+;
+  }, [clickCounter , computerImg , userImg]);
+
+
+  useEffect(() => {
+    if (!toastShown && userImg !== 0 && clickCounter === 20) {
+      setToastShown(true);
+  
+      if (userScore > computerScore) {
+        toast("Congratulations !! You Won...🥳🥳🥳");
+      } else if (userScore < computerScore) {
+        toast("Opps !! You Lost...😭😭😭");
+      } else if (userScore === computerScore) {
+        toast('Match Tied...🤝🤝🤝');
+      }
+  
+      setIsDisabled(true);
+    }
+  }, [clickCounter, userScore, computerScore, userImg, toastShown]);
+
+
+
+
+
+
+      useEffect(()=>{
+
+      if( !gameState.toastShown  && gameState.clickCounter === 3  ){
+        setGameState((prev)=>({...prev , isDisabledBtn : true }))
+        setGameState((prev)=>({...prev , toastShown : true }))
+
+        if (gameState.userScore > gameState.computerScore) {
+          toast("Congratulations !! You Won...🥳🥳🥳");
+          console.log(gameState.userScore);
+          console.log(gameState.computerScore);
+        } else if (gameState.userScore < gameState.computerScore) {
+          toast("Opps !! You Lost...😭😭😭");
+          console.log(gameState.userScore);
+          console.log(gameState.computerScore);
+        } else if (gameState.userScore === gameState.computerScore && gameState.userScore!=0 && gameState.computerScore!=0) {
+          toast('Match Tied...🤝🤝🤝');
+          console.log(gameState.userScore);
+          console.log(gameState.computerScore);
+        }
+
+      }
+
+    } , [ gameState.userScore , gameState.computerScore  , gameState.userImg , gameState.computerImg , gameState.clickCounter])

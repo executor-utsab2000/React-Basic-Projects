@@ -1,0 +1,24 @@
+.pdtSecionHeader{
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: white;
+}
+
+.description{
+    font-weight: 600;
+    width: 30vw;
+    color: white;
+    letter-spacing: 1px;
+    word-break: 2px;
+    font-size: 1.3rem;
+}
+ 
+ 
+/*  
+ hr {
+     margin-top: 6rem;
+     margin-bottom: 6rem;
+     color: white;
+     border: 1px solid white;
+     border-radius: 20px;
+ } */

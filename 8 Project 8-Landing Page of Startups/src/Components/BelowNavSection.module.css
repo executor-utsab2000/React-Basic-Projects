@@ -1,0 +1,53 @@
+.pdtSecionHeader{
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+
+.description{
+    font-weight: 600;
+    width: 30vw;
+    color: white;
+    letter-spacing: 1px;
+    word-break: 2px;
+    font-size: 1.3rem;
+}
+
+hr{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 700; 
+    border:  none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color: white;
+}
+
+.btnpurple{
+    background-color: #5d5de1 !important;
+}
+
+.btngrey{
+    background-color: #273746;
+}
+
+.videoSection{
+    margin-top: 3.5rem;
+    margin-bottom: 5rem;
+}
+
+.videoSection video{
+    border-radius: 20px;
+    /* height: 85vh; */
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

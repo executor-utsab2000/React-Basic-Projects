@@ -1,0 +1,39 @@
+.bg{
+    background-color: #FDD835;
+    padding: 3rem 0;
+}
+
+.bg .container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.formContainer{
+    padding:1.2rem 3rem ;
+    width:70vw;
+    background-color: #F7F9F9;
+    border-radius: 15px;
+}   
+
+.formContainer input, textarea{
+    width: 100%;
+    padding: 0.6rem ;
+    border-radius: 10px;
+    border :none;
+    border-bottom: #F1C40F 3px solid;
+    background-color: #FEF9E7;
+    resize: none;
+    outline: none;
+   
+}
+.formContainer button{
+    width: 100%;
+    padding: 1.2rem 0.6rem  ;
+    border-radius: 10px;
+    background-color: #273746;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}

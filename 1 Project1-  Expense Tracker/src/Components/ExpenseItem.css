@@ -1,0 +1,11 @@
+.card{
+    margin-top: 15px;
+    width: 50rem;
+    height: 8rem;
+    color: yellow;
+    font-weight: bold;
+}
+
+.list-group-item{
+    background-color: beige;
+}

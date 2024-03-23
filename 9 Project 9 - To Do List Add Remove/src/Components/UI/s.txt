@@ -1,0 +1,66 @@
+import React, { useState } from "react";
+import ExpenseForm from "./UI/ExpenseForm";
+import ExpensItemTableCard from "./UI/ExpensItemTableCard";
+
+
+
+
+
+const FormDataArray=[]
+
+
+
+export default function DisplaySection(props){
+
+   const[arrayData , updateArrayData] =  useState(FormDataArray)   
+//    console.log(arrayData);
+
+    const FormValueFetch=(formExpenseData)=>{
+            console.log(formExpenseData);
+            const updatedArray =[...arrayData , {...formExpenseData , id: Math.random()}]
+            // console.log(updatedArray);
+            updateArrayData(updatedArray);
+            
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    return(
+        <>
+            <ExpenseForm insertedFormData={FormValueFetch}/>
+
+            
+        {
+            arrayData.map((formObjects)=>{
+                      
+                // console.log(new Date(date));
+                console.log(id);
+
+                return(
+                    <ExpensItemTableCard ExpenseTitle={title} ExpenseDate={new Date(date)} ExpenseAmount={amount} ExpenseDataId={id}/>
+                )
+            })
+        }
+
+
+
+
+
+        </>
+    )
+}

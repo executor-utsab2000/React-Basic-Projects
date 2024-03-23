@@ -1,0 +1,25 @@
+.navbar{
+    padding: 1.1rem 0;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.navbar img{
+width: 4rem !important;
+/* padding-left: 0.5rem; */
+}
+
+.navbar ul li a{
+    color:  black !important; 
+    letter-spacing: 1.5px;
+    
+    font-weight: bold;
+      
+
+}
+
+@media (min-width:992px) {
+    .navbar ul{
+        margin-left: 62vw;
+    }
+}
+

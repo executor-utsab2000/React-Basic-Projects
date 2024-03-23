@@ -1,0 +1,72 @@
+.classCardContainer {
+  min-width: 18rem;
+  margin-top: 20px; 
+  background-color: white;
+  text-align: center;
+  max-width: 22.5rem;
+  width: 30vw;
+  padding-bottom: 30px;
+  /* height: 29rem; */
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: .4s;
+}
+
+.cardTitle {
+  padding: 1rem ;
+  font-family: arial Black;
+  display: grid;
+  place-items: center;
+  border-bottom: 2px solid #fdd835;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  background-color: #fdd835;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.classCardContainer img {
+  min-width: 17.7rem;
+  max-width: 22rem;
+  width: 29.7vw;
+  height: 18rem;
+  padding: 1px;
+}
+
+.text {
+  font-size: 0.7rem;
+  font-style: italic;
+  font-weight: 700;
+  padding: 1.6rem 0.7rem;
+}
+
+.learnMore a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+  padding-bottom: 3px;
+  border-bottom: #fdd835 4px solid;
+}
+
+
+
+/* ---------------------------------------------------- */
+@media (max-width:1200px) {
+  .classCardContainer {
+    max-width: 18rem !important;
+  }
+
+  img {
+    max-width: 17.7rem !important;
+  }
+}
+
+
+
+.classCardContainer:hover{
+  transform: scale(1.06);
+}

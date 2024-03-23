@@ -1,0 +1,36 @@
+.card{
+    width: 20rem;
+    text-align: center;  
+    display: flex;
+    justify-content: center;  
+    padding: 10px;
+    outline: none;
+    border:  none;
+    background-color:transparent;
+    color: white;
+}
+
+.card i{
+ 
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    height: 4rem;
+    width: 4rem;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(93 93 255);
+    color: white;
+}
+
+.card h5{
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.card p{
+    font-size: 0.9rem;
+    font-weight: 600;
+}

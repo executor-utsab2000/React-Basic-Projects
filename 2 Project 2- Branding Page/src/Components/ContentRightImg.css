@@ -1,0 +1,12 @@
+.ContentRightImg{
+    height: 40rem;
+    transform: rotate(-40deg);
+}
+
+@media (max-width:992px) {
+    .ContentRightImg{
+        height: 20rem;
+        transform: rotate(-40deg);
+    }
+    
+}

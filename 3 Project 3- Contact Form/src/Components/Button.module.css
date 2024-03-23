@@ -1,0 +1,23 @@
+.blackButton{    
+    width: 40%;
+    padding: 0.7rem 2.1rem;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.outlineButton{   
+    width: 100%; 
+    border: 2px solid black;
+    padding: 0.7rem 2.1rem;
+    background-color: white;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+button i{
+    margin-right:0.5rem;
+}
